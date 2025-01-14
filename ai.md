@@ -37,8 +37,3 @@ permalink: /ais/
     {% endif %}
   {% endfor %}
 </ul>
-
-
-
-
-
