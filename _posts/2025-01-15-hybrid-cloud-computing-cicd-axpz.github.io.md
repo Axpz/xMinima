@@ -145,10 +145,30 @@ kubectl create secret generic github-ssh-key-secret --from-file=id_rsa=/home/ubu
 ```bash
 cat <<EOF > Dockerfile
 FROM ruby:latest
-RUN gem install jekyll bundler jekyll-seo-tag
+RUN gem install jekyll bundler jekyll-seo-tag csv base64
 EOF
 
-docker build -t jekyll-cicd .
+cat <<EOF > Dockerfile2
+FROM ruby:3.2-alpine
+
+ENV BUNDLER_VERSION=2.4.13 \
+    JEKYLL_VERSION=4.3.2 \
+    BUILD_DEPS="build-base gcc libxml2-dev libxslt-dev readline-dev" \
+    RUNTIME_DEPS="tzdata bash"
+
+RUN apk add --no-cache $BUILD_DEPS $RUNTIME_DEPS && \
+    gem install jekyll:$JEKYLL_VERSION bundler:$BUNDLER_VERSION jekyll-seo-tag csv base64 && \
+    apk del $BUILD_DEPS && \
+    rm -rf /var/cache/apk/* /usr/lib/lib/ruby/gems/*/cache/*
+
+WORKDIR /app
+
+CMD ["jekyll", "--help"]
+EOF
+
+
+docker build -t jekyll-cicd:4.3.2 .
+docker save -o /tmp/jekyll-cicd.tar jekyll-cicd:4.3.2
 ctr -n=k8s.io images import /tmp/snap-private-tmp/snap.docker/tmp/jekyll-cicd.tar
 ```
 
