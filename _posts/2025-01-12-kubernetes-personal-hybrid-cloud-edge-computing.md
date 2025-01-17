@@ -227,7 +227,13 @@ curl -sfL https://get.k3s.io | K3S_URL=https://axpz.local:6443 K3S_TOKEN=K10...d
 
 #### 打通网络、搭建集群
 
-参考方案1的实现
+参考方案1的实现, 同时注意添加dnat
+```bash
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -d 74.121.149.207 -j DNAT --to-destination 10.4.0.3:80
+sudo iptables -t nat -A PREROUTING -p tcp --dport 443 -d 74.121.149.207 -j DNAT --to-destination 10.4.0.3:443
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo iptables -t nat -A POSTROUTING -o wg0 -j MASQUERADE
+```
 
 #### 配置集群负载均衡为wg0
 

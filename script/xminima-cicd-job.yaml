@@ -1,19 +1,19 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: xminima-cicd-job
+  name: cicd-job
 spec:
   template:
     spec:
       containers:
       - name: cicd-container
-        image: xminima-cicd
+        image: jekyll-xminima-cicd
         imagePullPolicy: IfNotPresent
         command:
         - /bin/bash
         - -c
         - |
-          set -ex
+          set -x
           pwd
           git config --global user.name "Axpz"
           git config --global user.email "axpzhang@gmail.com"
@@ -38,5 +38,5 @@ spec:
         secret:
           secretName: github-ssh-key-secret # 请确保预先创建了此 Secret
           defaultMode: 0600
-  backoffLimit: 0 # 任务失败后不重试
-  ttlSecondsAfterFinished: 600 # 在任务完成 60 秒后删除 Job
+  backoffLimit: 3 # 任务失败后最多重试 3 次
+  ttlSecondsAfterFinished: 300 # 在任务完成 60 秒后删除 Job

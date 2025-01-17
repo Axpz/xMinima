@@ -4,7 +4,7 @@ title: "Kong start from api-gateway"
 date: 2025-01-16 14:43:43 +0800
 lastupdated: 2025-01-16 14:43:43 +0800
 categories: kong
-tags: [kong,PostgreSQL,api,gateway,ai]
+tags: [kong,api,gateway,ai]
 ---
 
 Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ  
@@ -29,3 +29,5 @@ https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia
 Upstream URL:
 global.api.konghq.com/examples/weather/utopia
 
+Upstream URL:
+global.api.konghq.com/examples/weather/utopia
