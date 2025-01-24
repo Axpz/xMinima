@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Hacker News 热门话题 top 10 {%Y-%m-%d}"
+title: "Hacker News Trending Now"
 date: 2025-01-24 09:44:54 +0800
 lastupdated: 2025-01-24 09:44:54 +0800
 categories: hacknews
