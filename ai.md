@@ -1,6 +1,6 @@
 ---
 layout: home
-title: AI today
+title: AI Automation
 permalink: /ais/
 ---
 
