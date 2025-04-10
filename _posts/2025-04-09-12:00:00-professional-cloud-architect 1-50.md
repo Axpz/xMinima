@@ -1,12 +1,12 @@
 ---
 layout: home
 title: "professional cloud architect"
-date: 2025-04-09 12:00:00 +0800
-lastupdated: 2025-04-09 12:00:00 +0800
+date: 2025-04-08 12:00:00 +0800
+lastupdated: 2025-04-08 12:00:00 +0800
 categories: cloud
 tags: [ai,k8s,cloud]
 ---
-professional cloud architect 2025-04-09 12:00:00
+professional cloud architect 2025-04-08 12:00:00
 
 # 16
 You have been asked to select the storage system for the click-data of your company's large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams.
