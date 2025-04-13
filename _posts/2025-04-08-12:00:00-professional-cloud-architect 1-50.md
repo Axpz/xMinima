@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "professional cloud architect"
+title: "professional cloud architect 1-50"
 date: 2025-04-08 12:00:00 +0800
 lastupdated: 2025-04-08 12:00:00 +0800
 categories: cloud
