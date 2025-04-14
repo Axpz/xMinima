@@ -414,7 +414,7 @@ B. Google Cloud VPN connected to the data center network
 C. A NAT and TLS translation gateway installed on-premises  
 D. A Google Compute Engine instance with a VPN server installed connected to the data center network    
   
-[Discussion](/assets/gcp/discussion/27.md) 
+[Discussion](/assets/gcp/discussion/27.md)   
 [A & B html](/assets/gcp/discussion/27.html)  
   
 # 28
