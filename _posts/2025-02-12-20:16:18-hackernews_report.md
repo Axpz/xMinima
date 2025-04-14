@@ -46,4 +46,4 @@ Hacker News 热门话题 2025-02-12 20:16:18
   
 10. **A0.dev (YC W25) – React Native App Generator**  
     一家名为 A0.dev 的初创公司推出了一个 React Native 应用生成器，旨在简化移动应用的开发过程。  
-    - [Launch HN: A0.dev (YC W25) – React Native App Generator](https://news.ycombinator.com/item?   id=43015267)
+    - [Launch HN: A0.dev (YC W25) – React Native App Generator](https://news.ycombinator.com/item?      id=43015267)

@@ -46,7 +46,7 @@ Hacker News 热门话题 2025-01-23 17:29:36
   
 10. **伦敦最中心的羊**  
     一篇有趣的文章探讨了伦敦最中心的羊的位置，以及这个概念背后的城市地理学。  
-    - [Where is London's most central sheep?   ][london-sheep]
+    - [Where is London's most central sheep?      ][london-sheep]
 
 [bunster]: https://github.com/yassinebenaid/bunster
 [psychedelic-graphics]: https://benpence.com/blog/post/psychedelic-graphics-0
@@ -54,7 +54,7 @@ Hacker News 热门话题 2025-01-23 17:29:36
 [open-source-laptop]: https://www.byran.ee/posts/creation/
 [working-with-files]: https://danluu.com/deconstruct-files/
 [orbit-spirograph]: https://www.redblobgames.com/x/1903-orbit-spirograph/
-[intrinsic-hiring]: item?   id=42805699
+[intrinsic-hiring]: item?      id=42805699
 [libmodulor]: https://github.com/c100k/libmodulor
 [third-base]: https://www.americanscientist.org/article/third-base
 [london-sheep]: https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html

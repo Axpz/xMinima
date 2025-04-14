@@ -26,7 +26,7 @@ Hacker News 热门话题 2025-02-10 14:00:03
   
 5. **现代预言机还是废话机器？**  
    文章讨论了在ChatGPT等AI技术盛行的世界中，如何保持竞争力和辨别真伪。  
-   - [Modern-Day Oracles or Bullshit Machines?   ][modern-day-oracles]
+   - [Modern-Day Oracles or Bullshit Machines?      ][modern-day-oracles]
   
 6. **Steam Deck 上的持久化包管理**  
    介绍了如何在Steam Deck上使用Nix实现持久化包管理，为游戏玩家提供了新的解决方案。  

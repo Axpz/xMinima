@@ -14,7 +14,7 @@ Hacker News 热门话题 2025-02-08 04:00:03
   
 2. **Donald Knuth的2024圣诞讲座**  
    Donald Knuth的2024年圣诞讲座视频，主题为强连通分量和弱连通分量，为计算机科学领域提供了宝贵的知识。  
-   - [Donald Knuth's 2024 Christmas Lecture: Strong and Weak Components](https://www.youtube.com/watch?   v=Hi8r_63LGyg)
+   - [Donald Knuth's 2024 Christmas Lecture: Strong and Weak Components](https://www.youtube.com/watch?      v=Hi8r_63LGyg)
   
 3. **Meta通过Torrent传播81.7TB版权数据**  
    Meta被指控通过Torrent传播了81.7TB的版权数据，用于训练AI，引发了版权和数据使用的争议。  

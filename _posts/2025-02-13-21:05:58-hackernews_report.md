@@ -20,9 +20,9 @@ Hacker News 热门话题 2025-02-14 06:05:58
    一篇文章揭露了YouTube用户邮箱泄露的问题，引发了对大型平台用户隐私保护的担忧。  
    - [Leaking the email of any YouTube user for $10k][leaking-youtube-emails]
   
-4. **Why Does Integer Addition Approximate float Multiplication?   **  
+4. **Why Does Integer Addition Approximate float Multiplication?      **  
    一篇技术文章探讨了整数加法与浮点乘法之间的关系，为理解计算机算术提供了新的视角。  
-   - [Why Does Integer Addition Approximate float Multiplication?   ][integer-addition-approximates-float-multiplication]
+   - [Why Does Integer Addition Approximate float Multiplication?      ][integer-addition-approximates-float-multiplication]
   
 5. **Thinkserver: My web-based coding environment**  
    一个基于Web的编程环境，允许用户在浏览器中编写和运行代码，提高了编程的便捷性。  

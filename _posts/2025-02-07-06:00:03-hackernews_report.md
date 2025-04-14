@@ -38,7 +38,7 @@ Hacker News 热门话题 2025-02-07 14:00:03
   
 8. **Verse (YC W22) Is Hiring**  
    Verse，一家参与Y Combinator W22的初创公司，正在招聘新员工。  
-   - [Verse Is Hiring](item?   id=42966455)
+   - [Verse Is Hiring](item?      id=42966455)
   
 9. **Evaluating Code Embeddings**  
    一篇关于评估代码嵌入的文章，探讨了代码搜索和理解的技术进展。  

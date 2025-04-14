@@ -26,7 +26,7 @@ Hacker News 热门话题 2025-02-26 04:00:03
   
 5. **DigiCert 威胁采取法律行动以压制 Bugzilla 讨论**  
    DigiCert 威胁要采取法律行动以压制 Bugzilla 上的讨论，引发了关于言论自由和法律威胁的争议。  
-   - [DigiCert: Threat of legal action to stifle Bugzilla discourse](https://bugzilla.mozilla.org/show_bug.cgi?   id=1950144)
+   - [DigiCert: Threat of legal action to stifle Bugzilla discourse](https://bugzilla.mozilla.org/show_bug.cgi?      id=1950144)
   
 6. **检测 Canvas 指纹识别中的噪声**  
    城堡博客的文章讨论了如何检测 Canvas 指纹识别中的噪声，对于提高网站安全性和隐私保护具有重要意义。  

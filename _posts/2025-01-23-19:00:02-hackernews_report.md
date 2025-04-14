@@ -14,7 +14,7 @@ Hacker News 热门话题 2025-01-23 19:00:02
   
 2. **感谢HN：我的自启动创业公司今天被收购了**  
    一位创业者在Hacker News上分享了他的自启动创业公司被收购的消息，这类故事通常能激励其他创业者，同时也提供了关于创业、产品开发和市场定位的讨论。  
-   - [Thank HN: My bootstrapped startup got acquired today](https://news.ycombinator.com/item?   id=42806247)
+   - [Thank HN: My bootstrapped startup got acquired today](https://news.ycombinator.com/item?      id=42806247)
   
 3. **迷幻图形：介绍**  
    迷幻图形是一种视觉艺术形式，这篇文章提供了对这种艺术风格的介绍，探讨了其历史和技术实现，对于设计师和艺术家来说，这是一次视觉和创意的启发。  
@@ -46,4 +46,4 @@ Hacker News 热门话题 2025-01-23 19:00:02
   
 10. **Intrinsic (YC W23) 正在招聘**  
     Intrinsic 是一家由Y Combinator支持的初创公司，目前正在招聘新成员，这对于寻找工作机会的开发者和创业者来说是一个值得关注的消息。  
-    - [Intrinsic (YC W23) Is Hiring](https://news.ycombinator.com/item?   id=42805699)
+    - [Intrinsic (YC W23) Is Hiring](https://news.ycombinator.com/item?      id=42805699)

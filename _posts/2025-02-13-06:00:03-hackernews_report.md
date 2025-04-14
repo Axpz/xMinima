@@ -38,7 +38,7 @@ Hacker News 热门话题 2025-02-13 14:00:03
   
 8. **NixOS的可复制性**  
    讨论了NixOS操作系统的可复制性问题，这是一个关于操作系统安全性和稳定性的重要话题。  
-   - [Is NixOS truly reproducible?   ](https://luj.fr/blog/is-nixos-truly-reproducible.html)
+   - [Is NixOS truly reproducible?      ](https://luj.fr/blog/is-nixos-truly-reproducible.html)
   
 9. **PgAssistant：开源工具**  
    介绍了一个开源工具PgAssistant，旨在帮助开发者理解和优化PostgreSQL的性能。  

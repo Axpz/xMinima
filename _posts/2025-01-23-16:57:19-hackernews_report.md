@@ -30,7 +30,7 @@ Hacker News 热门话题 2025-01-23 16:57:19
     - [TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem](https://tmsu.org/)
   
 8. **伦敦最中心的羊在哪里？**：一篇博客文章，探讨了伦敦最中心的羊的位置，以及这个概念背后的地理和文化意义。
-    - [Where is London's most central sheep?   ](https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html)
+    - [Where is London's most central sheep?      ](https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html)
   
 9. **英国微型巨头**：一篇博客文章，讨论了英国微型计算机产业的历史和影响，以及它如何塑造了现代技术。
     - [The British Micro Behemoth](https://www.abortretry.fail/p/the-british-micro-behemoth)

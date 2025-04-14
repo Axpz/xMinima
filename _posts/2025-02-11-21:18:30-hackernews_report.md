@@ -30,7 +30,7 @@ Hacker News 热门话题 2025-02-11 21:18:30
   
 6. **TSMC 2nm工艺披露**  
    分析了TSMC最新的2nm工艺技术，并探讨了其性能指标。  
-   - [TSMC 2nm Process Disclosure – How Does It Measure Up?   ](https://semiwiki.com/semiconductor-services/techinsights/352972-iedm-2025-tsmc-2nm-process-disclosure-how-does-it-measure-up/)
+   - [TSMC 2nm Process Disclosure – How Does It Measure Up?      ](https://semiwiki.com/semiconductor-services/techinsights/352972-iedm-2025-tsmc-2nm-process-disclosure-how-does-it-measure-up/)
   
 7. **Floppotron 3.0音乐项目**  
    介绍了Floppotron 3.0项目，这是一个使用老式软盘驱动器制作音乐的创意项目。  

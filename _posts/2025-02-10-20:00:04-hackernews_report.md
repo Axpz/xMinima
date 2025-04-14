@@ -18,7 +18,7 @@ Hacker News 热门话题 2025-02-10 20:00:04
   
 3. **博客写作的意义**  
    讨论了即使没有人阅读，为什么人们仍然会写博客的问题，触及了内容创作者的内心世界和动机。  
-   - [Why blog if nobody reads it?   ](https://andysblog.uk/why-blog-if-nobody-reads-it/)
+   - [Why blog if nobody reads it?      ](https://andysblog.uk/why-blog-if-nobody-reads-it/)
   
 4. **人类起源研究百年纪念**  
    庆祝人类起源研究一百周年，回顾了这一领域的重要发现和进展。  
@@ -50,5 +50,5 @@ Hacker News 热门话题 2025-02-10 20:00:04
 
 [TL;DR of Deep Dive into LLMs Like ChatGPT by Andrej Karpathy]: https://anfalmushtaq.com/articles/deep-dive-into-llms-like-chatgpt-tldr
 [Thomas Aquinas' skull reveals appearance and cause of death]: https://www.ncregister.com/blog/face-of-aquinas-revealed-after-750-years
-[Why blog if nobody reads it?   ]: https://andysblog.uk/why-blog-if-nobody-reads-it/
+[Why blog if nobody reads it?      ]: https://andysblog.uk/why-blog-if-nobody-reads-it/
 [Out of Africa: celebrating 100 years of human-origins research]: https://www.nature.com/articles/d41586-025-00282

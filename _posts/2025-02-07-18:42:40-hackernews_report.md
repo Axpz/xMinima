@@ -14,7 +14,7 @@ Hacker News 热门话题 2025-02-07 22:42:40
   
 2. **reCAPTCHA是否符合GDPR**  
    一篇关于reCAPTCHA是否符合GDPR的文章引发了讨论，关注点在于用户隐私和数据保护。  
-   - [Is the use of reCAPTCHA GDPR-compliant?   ][recaptcha-gdpr]
+   - [Is the use of reCAPTCHA GDPR-compliant?      ][recaptcha-gdpr]
   
 3. **BBC探访建立在诈骗之上的城市**  
    BBC报道了一个以诈骗为基础的城市，涉及赌场和高楼大厦，揭示了背后的欺诈行为。  
@@ -48,7 +48,7 @@ Hacker News 热门话题 2025-02-07 22:42:40
     FloydHub上的文章讲述了Emil自学成为AI研究员的故事，激励了许多人。  
     - [Emil's Story as a Self-Taught AI Researcher][emil-story]
 
-[donald-knuth-lecture]: https://www.youtube.com/watch?   v=Hi8r_63LGyg
+[donald-knuth-lecture]: https://www.youtube.com/watch?      v=Hi8r_63LGyg
 [recaptcha-gdpr]: https://dg-datenschutz.de/ist_die_verwendung_von_recaptcha_dsgvo_konform/
 [bbc-casinos]: https://www.bbc.co.uk/news/articles/c04nx1vnw17o
 [transformer-spreadsheet]: https://www.byhand.ai/p/transformer-spreadsheet

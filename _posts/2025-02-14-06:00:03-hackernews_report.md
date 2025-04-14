@@ -22,11 +22,11 @@ Hacker News 热门话题 2025-02-14 14:00:03
   
 4. **IRB 审批需求讨论**  
    文章讨论了哪些人需要从机构审查委员会（IRB）获得批准，这对于涉及人类研究的项目至关重要。  
-   - [Who exactly needs to get approval from an institutional review board (IRB)?   ](https://dynomight.net/irb/)
+   - [Who exactly needs to get approval from an institutional review board (IRB)?      ](https://dynomight.net/irb/)
   
 5. **Mill 使用 Scala 的原因**  
    Mill 构建工具解释了为什么选择 Scala 作为其主要编程语言，强调了 Scala 的优势和适用性。  
-   - [Why does Mill use Scala?   ](https://mill-build.org/mill/depth/why-scala.html)
+   - [Why does Mill use Scala?      ](https://mill-build.org/mill/depth/why-scala.html)
   
 6. **卡尔曼滤波器基础**  
    提供了卡尔曼滤波器基础的详细 PDF 文件，帮助理解这一在信号处理和控制系统中广泛使用的技术。  

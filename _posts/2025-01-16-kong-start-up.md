@@ -7,9 +7,9 @@ categories: kong
 tags: [kong,api,gateway,ai]
 ---
   
-Kong Konnect Demo: https://www.youtube.com/watch?   v=0XEtsyq_sUQ    
-Get started with Kong gateway https://www.youtube.com/watch?   v=hdE-rMAdYVY    
-Kong Oauth https://www.youtube.com/watch?   v=AIYIHZbDziI
+Kong Konnect Demo: https://www.youtube.com/watch?      v=0XEtsyq_sUQ    
+Get started with Kong gateway https://www.youtube.com/watch?      v=hdE-rMAdYVY    
+Kong Oauth https://www.youtube.com/watch?      v=AIYIHZbDziI
   
 Create your first API Gateway  
 ![alt text](/assets/images/kong/Create_your_first_API_Gateway.png)

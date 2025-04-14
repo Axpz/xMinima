@@ -34,7 +34,7 @@ Hacker News 热门话题 2025-01-23 17:36:48
   
 7. **Intrinsic (YC W23) Is Hiring**  
    Intrinsic，一家 Y Combinator 支持的初创公司，正在招聘，这表明了初创公司在招聘技术人才方面的活跃性。  
-   - [Intrinsic (YC W23) Is Hiring](https://news.ycombinator.com/item?   id=42805699)
+   - [Intrinsic (YC W23) Is Hiring](https://news.ycombinator.com/item?      id=42805699)
   
 8. **Show HN: libmodulor – 构建多平台应用的 TypeScript 库**  
    libmodulor 是一个有特定观点的 TypeScript 库，旨在帮助开发者构建跨平台的应用。  
@@ -44,6 +44,6 @@ Hacker News 热门话题 2025-01-23 17:36:48
    这篇文章探讨了棒球运动中的“三垒”位置，分析了其在战术和策略中的重要性。  
    - [Third Base](https://www.americanscientist.org/article/third-base)
   
-10. **Where is London's most central sheep?   **  
+10. **Where is London's most central sheep?      **  
     这篇文章通过数据分析，找到了伦敦地理位置最中心的羊，这是一个有趣的地理和数据分析案例。  
-    - [Where is London's most central sheep?   ](https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html)
+    - [Where is London's most central sheep?      ](https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html)

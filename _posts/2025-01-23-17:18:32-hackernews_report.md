@@ -27,7 +27,7 @@ Hacker News 热门话题 2025-01-23 17:18:32
     - Show HN: libmodulor – An opinionated TS library to build multi-platform apps: https://github.com/c100k/libmodulor
   
 7. **Intrinsic 招聘信息**：一家 YC W23 孵化的公司正在招聘。
-    - Intrinsic (YC W23) Is Hiring: item?   id=42805699
+    - Intrinsic (YC W23) Is Hiring: item?      id=42805699
   
 8. **文件操作的难点**：一篇讨论文件操作难点的文章，分析了文件系统和文件操作的复杂性。
     - Working with Files Is Hard: https://danluu.com/deconstruct-files/
@@ -36,5 +36,5 @@ Hacker News 热门话题 2025-01-23 17:18:32
     - Third Base: https://www.americanscientist.org/article/third-base
   
 10. **伦敦最中心的羊**：一篇探讨伦敦最中心位置的羊的文章，提供了有趣的地理和文化信息。
-    - Where is London's most central sheep?   : https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html
+    - Where is London's most central sheep?      : https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html
 ---

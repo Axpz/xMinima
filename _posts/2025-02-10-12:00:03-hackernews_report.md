@@ -16,9 +16,9 @@ Hacker News 热门话题 2025-02-10 20:00:03
    文章讨论了在着色器中使用 mix() 和 step() 函数进行条件移动优化的问题，指出这种优化可能会导致性能下降，提醒开发者注意。  
    - [Don't "optimize" conditional moves in shaders with mix()+step()](https://iquilezles.org/articles/gpuconditionals/)
   
-3. **Why Blog If Nobody Reads It?   **  
+3. **Why Blog If Nobody Reads It?      **  
    探讨了即使博客无人阅读，为何人们仍然坚持写作的问题。文章认为，博客不仅是分享知识的方式，也是个人思考和自我表达的平台。  
-   - [Why Blog If Nobody Reads It?   ](https://andysblog.uk/why-blog-if-nobody-reads-it/)
+   - [Why Blog If Nobody Reads It?      ](https://andysblog.uk/why-blog-if-nobody-reads-it/)
   
 4. **Teen on Musk's DOGE team graduated from 'The Com'**  
    报道了一名青少年从“喜剧中心”毕业，加入了马斯克的 DOGE 团队。这一事件引发了对青少年在科技领域角色和潜力的讨论。  

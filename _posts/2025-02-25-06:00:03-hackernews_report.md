@@ -38,7 +38,7 @@ Hacker News 热门话题 2025-02-25 14:00:03
   
 8. **SubImage – 从攻击者视角查看基础设施**  
    一个名为 SubImage 的新项目，它允许用户从攻击者的角度查看他们的基础设施，这对于网络安全和风险评估非常有价值。  
-   - [Launch HN: SubImage (YC W25) – See your infra from an attacker's perspective](https://news.ycombinator.com/item?   id=43161332)
+   - [Launch HN: SubImage (YC W25) – See your infra from an attacker's perspective](https://news.ycombinator.com/item?      id=43161332)
   
 9. **Neut 编程语言**  
    一个名为 Neut 的新编程语言的介绍，这可能预示着编程语言领域的新动向。  

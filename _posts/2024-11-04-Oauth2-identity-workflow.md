@@ -43,7 +43,7 @@ tags: [oauth,ai]
 - 客户端(第三方应用)通过 **302 重定向** 请求用户访问授权服务器（`auth server`），并在 URL 中携带以下重要参数：
 
 ```http  
-GET /authorize?   response_type=code&client_id=CLIENT_ID&redirect_uri=https://your-app.com/callback&scope=SCOPE&state=RANDOM_STRING HTTP/1.1  
+GET /authorize?      response_type=code&client_id=CLIENT_ID&redirect_uri=https://your-app.com/callback&scope=SCOPE&state=RANDOM_STRING HTTP/1.1  
 Host: auth-server.com
 ```  
 参数说明：
@@ -65,7 +65,7 @@ Host: auth-server.com
 
 ```http  
 HTTP/1.1 302 Found  
-Location: https://your-app.com/callback?   code=AUTH_CODE&state=RANDOM_STRING
+Location: https://your-app.com/callback?      code=AUTH_CODE&state=RANDOM_STRING
 ```
  参数说明：
 - **code**：授权码。

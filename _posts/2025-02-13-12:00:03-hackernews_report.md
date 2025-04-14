@@ -44,9 +44,9 @@ Hacker News 热门话题 2025-02-13 20:00:03
    Blintzbase 发表的文章解释了为什么现代密码学不基于NP完全问题，这对于理解密码学的基础和安全性至关重要。  
    - [Why cryptography is not based on NP-complete problems](https://blintzbase.com/posts/cryptography-is-not-based-on-np-hard-problems/)
   
-10. **Is NixOS truly reproducible?   **  
+10. **Is NixOS truly reproducible?      **  
     Luj.fr 上的文章探讨了 NixOS 是否真正可复现，这对于理解操作系统的构建和部署过程具有重要意义。  
-    - [Is NixOS truly reproducible?   ](https://luj.fr/blog/is-nixos-truly-reproducible.html)
+    - [Is NixOS truly reproducible?      ](https://luj.fr/blog/is-nixos-truly-reproducible.html)
   
 11. **Show HN: Game Bub – open-source FPGA retro emulation handheld**  
     Eli Lipsitz 在 Hacker News 上展示了他开发的开源 FPGA 复古模拟器掌机 Game Bub，这为复古游戏爱好者提供了新的选择。  
