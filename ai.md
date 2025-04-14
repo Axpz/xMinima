@@ -1,6 +1,6 @@
----
-layout: home
-title: AI Automation
+---  
+layout: home  
+title: AI Automation  
 permalink: /ais/
 ---
 

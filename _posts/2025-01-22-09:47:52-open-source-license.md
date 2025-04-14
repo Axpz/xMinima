@@ -1,14 +1,14 @@
----
-layout: home
-title: "关于开源许可协议"
-date: 2025-01-22 09:47:52 +0800
-lastupdated: 2025-01-22 09:47:52 +0800
-categories: k8s
+---  
+layout: home  
+title: "关于开源许可协议"  
+date: 2025-01-22 09:47:52 +0800  
+lastupdated: 2025-01-22 09:47:52 +0800  
+categories: k8s  
 tags: [license,tech]
 ---
-
+  
 常见的开源许可协议，可以理解为两条线
-
+  
 1. 软件类产品，从宽松到严格依次是  
     ```markdown
     ------- 松 ----    --- 紧 -------  
@@ -18,10 +18,10 @@ tags: [license,tech]
                     GPL (GNU General Public License)  
         BSD License  
     ```
-
-2. 创作类非软件产品  
+  
+2. 创作类非软件产品    
 CC (Creative Commons License)，适合开源非软件类作品，如文档、艺术作品、图像、音频等
-
+  
 详细如下：
 
 # MIT Licnese
