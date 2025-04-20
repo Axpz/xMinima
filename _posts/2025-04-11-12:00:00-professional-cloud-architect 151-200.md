@@ -50,6 +50,7 @@ D. Configure Anthos Config Management on your cluster, and create a yaml file th
   
 [Discussion](/assets/gcp/discussion/153.md)  
 [Answers and Votes](/assets/gcp/discussion/153.ans.html)  
+[Anthos vs GKE](/assets/gcp/discussion/153.vs.html)  
   
 # 154
 
@@ -441,6 +442,7 @@ D. 1. Create a dataset for the data science team. 2. Create materialized views o
   
 [Discussion](/assets/gcp/discussion/179.md)  
 [Answers and Votes](/assets/gcp/discussion/179.ans.html)  
+[Grant view access](/assets/gcp/discussion/179.vs.html)  
 
   
 # 180
@@ -461,8 +463,8 @@ D. Download the data to the on-premises data center, and upload it to the Cloud 
 # 181
 
 You have a Compute Engine managed instance group that adds and removes Compute Engine instances from the group in response to the load on your application. The instances have a shutdown script that removes REDIS database entries associated with the instance. You see that many database entries have not been removed, and you suspect that the shutdown script is the problem. You need to ensure that the commands in the shutdown script are run reliably every time an instance is shut down. You create a Cloud Function to remove the database entries. What should you do next?        
-您有一个 Compute Engine 托管实例组，该组会根据应用程序的负载情况，在组中添加和移除 Compute Engine 实例。这些实例有一个关闭脚本，用于删除与该实例关联的 REDIS 数据库条目。您发现许多数据库条目尚未删除，因此怀疑关闭脚本存在问题。您需要确保每次关闭实例时，关闭脚本中的命令都能可靠地运行。您创建了一个 Cloud Functions 函数来删除数据库条目。接下来应该做什么？    
 
+  
 A. Modify the shutdown script to wait for 30 seconds before triggering the Cloud Function.  
 B. Do not use the Cloud Function. Modify the shutdown script to restart if it has not completed in 30 seconds.  
 C. Set up a Cloud Monitoring sink that triggers the Cloud Function after an instance removal log message arrives in Cloud Logging.  

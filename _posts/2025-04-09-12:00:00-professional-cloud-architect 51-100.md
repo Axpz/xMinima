@@ -240,9 +240,8 @@ D. Perform the following: 1. Create a GKE cluster with n1-standard-4 type machin
 
 Your company wants to start using Google Cloud resources but wants to retain their on-premises Active Directory domain controller for identity management.
 What should you do?        
-您的公司想要开始使用 Google Cloud 资源，但希望保留其本地 Active Directory 域控制器进行身份管理。  
-您应该怎么做？    
 
+  
 A. Use the Admin Directory API to authenticate against the Active Directory domain controller.  
 B. Use Google Cloud Directory Sync to synchronize Active Directory usernames with cloud identities and configure SAML SSO.  
 C. Use Cloud Identity-Aware Proxy configured to use the on-premises Active Directory domain controller as an identity provider.  
@@ -458,9 +457,8 @@ D. Provision standard VMs to the same region to reduce cost. Disable and then di
 
 Your customer wants to do resilience testing of their authentication layer. This consists of a regional managed instance group serving a public REST API that reads from and writes to a Cloud SQL instance.  
 What should you do?        
-您的客户想要对其身份验证层进行弹性测试。该层包含一个区域托管实例组，该实例组提供公共 REST API，用于读取和写入 Cloud SQL 实例。  
-您应该怎么做？    
 
+  
 A. Engage with a security company to run web scrapers that look your for users' authentication data om malicious websites and notify you if any is found.  
 B. Deploy intrusion detection software to your virtual machines to detect and log unauthorized access.  
 C. Schedule a disaster simulation exercise during which you can shut off all VMs in a zone to see how your application behaves.  
@@ -473,8 +471,7 @@ D. Configure a read replica for your Cloud SQL instance in a different zone than
 # 83
 
 Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?        
-您的 BigQuery 项目有多个用户。为了进行审核，您需要查看每个用户上个月运行了多少次查询。您应该怎么做？    
-
+  
 A. Connect Google Data Studio to BigQuery. Create a dimension for the users and a metric for the amount of queries per user.  
 B. In the BigQuery interface, execute a query on the JOBS table to get the required information.  
 C. Use 'bq show' to list all jobs. Per job, use 'bq ls' to list job information and get the required information.  
@@ -590,10 +587,10 @@ All Compute Engine instances in your VPC should be able to connect to an Active 
 How should you configure the firewall rules?      
    
 
-A. Create an egress rule with priority 1000 to deny all traffic for all instances. Create another egress rule with priority 100 to allow the Active Directory traffic for all instances.
-B. Create an egress rule with priority 100 to deny all traffic for all instances. Create another egress rule with priority 1000 to allow the Active Directory traffic for all instances.
-C. Create an egress rule with priority 1000 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 100 to block all traffic for all instances.
-D. Create an egress rule with priority 100 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 1000 to block all traffic for all instances.  
+A. Create an egress rule with priority 1000 to deny all traffic for all instances. Create another egress rule with priority 100 to allow the Active Directory traffic for all instances.  
+B. Create an egress rule with priority 100 to deny all traffic for all instances. Create another egress rule with priority 1000 to allow the Active Directory traffic for all instances.  
+C. Create an egress rule with priority 1000 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 100 to block all traffic for all instances.  
+D. Create an egress rule with priority 100 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 1000 to block all traffic for all instances.    
 
 [Discussion](/assets/gcp/discussion/91.md)  
 [Answers and Votes](/assets/gcp/discussion/91.ans.html)  
@@ -605,9 +602,9 @@ Your customer runs a web service used by e-commerce sites to offer product recom
 What should the customer do to improve their model's results over time?      
    
 
-A. Export Cloud Machine Learning Engine performance metrics from Stackdriver to BigQuery, to be used to analyze the efficiency of the model.
-B. Build a roadmap to move the machine learning model training from Cloud GPUs to Cloud TPUs, which offer better results.
-C. Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance.
+A. Export Cloud Machine Learning Engine performance metrics from Stackdriver to BigQuery, to be used to analyze the efficiency of the model.  
+B. Build a roadmap to move the machine learning model training from Cloud GPUs to Cloud TPUs, which offer better results.  
+C. Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance.  
 D. Save a history of recommendations and results of the recommendations in BigQuery, to be used as training data.  
 
 [Discussion](/assets/gcp/discussion/92.md)  

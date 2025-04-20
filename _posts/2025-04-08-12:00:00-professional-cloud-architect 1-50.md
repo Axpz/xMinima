@@ -212,15 +212,15 @@ D. Google Compute Engine with Google BigQuery
 
 # 13
 
-Your customer is receiving reports that their recently updated Google App Engine application is taking approximately 30 seconds to load for some of their users.
-This behavior was not reported before the update.
-What strategy should you take?        
-
-A. Work with your ISP to diagnose the problem
-B. Open a support ticket to ask for network capture and flow data to diagnose the problem, then roll back your application
-C. Roll back to an earlier known good release initially, then use Stackdriver Trace and Logging to diagnose the problem in a development/test/staging environment
-D. Roll back to an earlier known good release, then push the release again at a quieter period to investigate. Then use Stackdriver Trace and Logging to diagnose the problem
-
+Your customer is receiving reports that their recently updated Google App Engine application is taking approximately 30 seconds to load for some of their users.  
+This behavior was not reported before the update.  
+What strategy should you take?          
+  
+A. Work with your ISP to diagnose the problem  
+B. Open a support ticket to ask for network capture and flow data to diagnose the problem, then roll back your application  
+C. Roll back to an earlier known good release initially, then use Stackdriver Trace and Logging to diagnose the problem in a development/test/staging environment  
+D. Roll back to an earlier known good release, then push the release again at a quieter period to investigate. Then use Stackdriver Trace and Logging to diagnose the problem  
+  
 [Discussion](/assets/gcp/discussion/13.md)   
 [Answer and Vote](/assets/gcp/discussion/13.ans.html)   
 
@@ -504,15 +504,7 @@ A development manager is building a new application. He asks you to review his r
 5. Deploy application bundles using dynamic templates  
 6. Route network traffic to specific services based on URL  
 Which combination of technologies will meet all of his requirements?          
-
-一位开发经理正在构建一个新应用程序。他请您审核他的需求，并确定可以使用哪些云技术来满足这些需求。该应用程序必须：  
-1. 基于开源技术，实现云可移植性   
-2. 根据需求动态扩展计算能力  
-3. 支持持续软件交付  
-4. 运行同一应用程序堆栈的多个独立副本    
-5. 使用动态模板部署应用程序包  
-6. 根据 URL 将网络流量路由到特定服务  
-哪种技术组合能够满足他的所有需求？
+  
 
 A. Google Kubernetes Engine, Jenkins, and Helm    
 B. Google Kubernetes Engine and Cloud Load Balancing  

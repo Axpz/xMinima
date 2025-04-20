@@ -491,10 +491,11 @@ D. Implement managed instance groups for the Tomcat and Nginx. Migrate MySQL to 
 
 Question
 For this question, refer to the Dress4Win case study. Considering the given business requirements, how would you automate the deployment of web and transactional data layers?          
-
+  
+  
 A. Deploy Nginx and Tomcat using Cloud Deployment Manager to Compute Engine. Deploy a Cloud SQL server to replace MySQL. Deploy Jenkins using Cloud Deployment Manager.  
 B. Deploy Nginx and Tomcat using Cloud Launcher. Deploy a MySQL server using Cloud Launcher. Deploy Jenkins to Compute Engine using Cloud Deployment Manager scripts.  
-C. Migrate Nginx and Tomcat to App Engine. Deploy a Cloud Datastore server to replace the MySQL server in a high-availability configuration. Deploy Jenkins to Compute Engine using Cloud Launcher.
+C. Migrate Nginx and Tomcat to App Engine. Deploy a Cloud Datastore server to replace the MySQL server in a high-availability configuration. Deploy Jenkins to Compute Engine using Cloud Launcher.  
 D. Migrate Nginx and Tomcat to App Engine. Deploy a MySQL server using Cloud Launcher. Deploy Jenkins to Compute Engine using Cloud Launcher.    
   
 [Discussion](/assets/gcp/discussion/275.md)  
@@ -505,7 +506,7 @@ D. Migrate Nginx and Tomcat to App Engine. Deploy a MySQL server using Cloud Lau
 
 Question  
 For this question, refer to the Dress4Win case study. Which of the compute services should be migrated as-is and would still be an optimized architecture for performance in the cloud?          
-
+  
 A. Web applications deployed using App Engine standard environment  
 B. RabbitMQ deployed using an unmanaged instance group  
 C. Hadoop/Spark deployed using Cloud Dataproc Regional in High Availability mode  

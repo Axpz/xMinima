@@ -687,8 +687,8 @@ D. Create a Kubernetes admissions controller to prevent the container from start
 # 146
 
 Your company wants to migrate their 10-TB on-premises database export into Cloud Storage. You want to minimize the time it takes to complete this activity, the overall cost, and database load. The bandwidth between the on-premises environment and Google Cloud is 1 Gbps. You want to follow Google-recommended practices. What should you do?        
-贵公司希望将其 10 TB 的本地数据库导出迁移到 Cloud Storage。您希望最大限度地缩短完成此操作所需的时间、降低总体成本并降低数据库负载。本地环境与 Google Cloud 之间的带宽为 1 Gbps。您希望遵循 Google 推荐的做法。您应该怎么做？    
-
+  
+    
 A. Develop a Dataflow job to read data directly from the database and write it into Cloud Storage.  
 B. Use the Data Transfer appliance to perform an offline migration.  
 C. Use a commercial partner ETL solution to extract the data from the on-premises database and upload it into Cloud Storage.  

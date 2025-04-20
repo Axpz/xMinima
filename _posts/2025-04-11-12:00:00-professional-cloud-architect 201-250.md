@@ -75,10 +75,11 @@ CTO Statement -
 The challenges of operating data centers prevent focus on key technologies critical to our long-term success. Migrating our data services to a public cloud infrastructure will allow us to focus on big data and machine learning to improve our service to customers.  
 
 CFO Statement -
-Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.
-Question
-The JencoMart security team requires that all Google Cloud Platform infrastructure is deployed using a least privilege model with separation of duties for administration between production and development resources.
-What Google domain and project structure should you recommend?        
+Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.  
+  
+Question  
+The JencoMart security team requires that all Google Cloud Platform infrastructure is deployed using a least privilege model with separation of duties for administration between production and development resources.  
+What Google domain and project structure should you recommend?          
 
 A. Create two G Suite accounts to manage users: one for development/test/staging and one for production. Each account should contain one project for every application  
 B. Create two G Suite accounts to manage users: one with a single project for all development applications and one with a single project for all production applications  
@@ -172,53 +173,55 @@ D. Google Cloud Datastore
   
 # 207
 
-Introductory Info
-Company overview -
+Introductory Info  
+Company overview -  
 Helicopter Racing League (HRL) is a global sports league for competitive helicopter racing. Each year HRL holds the world championship and several regional league competitions where teams compete to earn a spot in the world championship. HRL offers a paid service to stream the races all over the world with live telemetry and predictions throughout each race.  
 
-Solution concept -
+Solution concept -  
 HRL wants to migrate their existing service to a new platform to expand their use of managed AI and ML services to facilitate race predictions. Additionally, as new fans engage with the sport, particularly in emerging regions, they want to move the serving of their content, both real-time and recorded, closer to their users.  
 
-Existing technical environment -
-HRL is a public cloud-first company; the core of their mission-critical applications runs on their current public cloud provider. Video recording and editing is performed at the race tracks, and the content is encoded and transcoded, where needed, in the cloud. Enterprise-grade connectivity and local compute is provided by truck-mounted mobile data centers. Their race prediction services are hosted exclusively on their existing public cloud provider. Their existing technical environment is as follows:
-Existing content is stored in an object storage service on their existing public cloud provider.
-Video encoding and transcoding is performed on VMs created for each job.
+Existing technical environment -  
+HRL is a public cloud-first company; the core of their mission-critical applications runs on their current public cloud provider. Video recording and editing is performed at the race tracks, and the content is encoded and transcoded, where needed, in the cloud. Enterprise-grade connectivity and local compute is provided by truck-mounted mobile data centers. Their race prediction services are hosted exclusively on their existing public cloud provider. Their existing technical environment is as follows:  
+Existing content is stored in an object storage service on their existing public cloud provider.  
+Video encoding and transcoding is performed on VMs created for each job.  
 Race predictions are performed using TensorFlow running on VMs in the current public cloud provider.  
 
-Business requirements -
-HRL's owners want to expand their predictive capabilities and reduce latency for their viewers in emerging markets. Their requirements are:
-Support ability to expose the predictive models to partners.
-Increase predictive capabilities during and before races:
-ג—‹ Race results
-ג—‹ Mechanical failures
-ג—‹ Crowd sentiment
-Increase telemetry and create additional insights.
-Measure fan engagement with new predictions.
-Enhance global availability and quality of the broadcasts.
-Increase the number of concurrent viewers.
-Minimize operational complexity.
-Ensure compliance with regulations.
-Create a merchandising revenue stream.  
+Business requirements -  
+HRL's owners want to expand their predictive capabilities and reduce latency for their viewers in emerging markets. Their requirements are:  
+Support ability to expose the predictive models to partners.  
+Increase predictive capabilities during and before races:  
+ג—‹ Race results  
+ג—‹ Mechanical failures  
+ג—‹ Crowd sentiment  
+Increase telemetry and create additional insights.  
+Measure fan engagement with new predictions.  
+Enhance global availability and quality of the broadcasts.  
+Increase the number of concurrent viewers.  
+Minimize operational complexity.  
+Ensure compliance with regulations.  
+Create a merchandising revenue stream.    
 
-Technical requirements -
-Maintain or increase prediction throughput and accuracy.
-Reduce viewer latency.
-Increase transcoding performance.
-Create real-time analytics of viewer consumption patterns and engagement.
-Create a data mart to enable processing of large volumes of race data.  
+Technical requirements -  
+Maintain or increase prediction throughput and accuracy.  
+Reduce viewer latency.  
+Increase transcoding performance.  
+Create real-time analytics of viewer consumption patterns and engagement.  
+Create a data mart to enable processing of large volumes of race data.    
 
 Executive statement -
-Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the world. We listen to our fans, and they want enhanced video streams that include predictions of events within the race (e.g., overtaking). Our current platform allows us to predict race outcomes but lacks the facility to support real-time predictions during races and the capacity to process season-long results.
-Question
+Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the world. We listen to our fans, and they want enhanced video streams that include predictions of events within the race (e.g., overtaking). Our current platform allows us to predict race outcomes but lacks the facility to support real-time predictions during races and the capacity to process season-long results.  
+  
+Question  
 For this question, refer to the Helicopter Racing League (HRL) case study. Your team is in charge of creating a payment card data vault for card numbers used to bill tens of thousands of viewers, merchandise consumers, and season ticket holders. You need to implement a custom card tokenization service that meets the following requirements:  
 * It must provide low latency at minimal cost.  
 * It must be able to identify duplicate credit cards and must not store plaintext card numbers.  
-* It should support annual key rotation.
-Which storage approach should you adopt for your tokenization service?        
-
-A. Store the card data in Secret Manager after running a query to identify duplicates.
-B. Encrypt the card data with a deterministic algorithm stored in Firestore using Datastore mode.
-C. Encrypt the card data with a deterministic algorithm and shard it across multiple Memorystore instances.
+* It should support annual key rotation.  
+Which storage approach should you adopt for your tokenization service?         
+  
+  
+A. Store the card data in Secret Manager after running a query to identify duplicates.  
+B. Encrypt the card data with a deterministic algorithm stored in Firestore using Datastore mode.  
+C. Encrypt the card data with a deterministic algorithm and shard it across multiple Memorystore instances.  
 D. Use column-level encryption to store the data in Cloud SQL.  
   
 [Discussion](/assets/gcp/discussion/207.md)  
@@ -340,6 +343,10 @@ D. Add a new Carrier Peering connection.
   
 [Discussion](/assets/gcp/discussion/215.md)  
 [Answers and Votes](/assets/gcp/discussion/215.ans.html)  
+[99.99% HA](https://cloud.google.com/network-connectivity/docs/interconnect/images/9999-availability.svg
+)  
+
+
 
   
 # 216
@@ -387,8 +394,9 @@ D. Create a custom Identity and Access Management (IAM) role named GCE_FRONTEND 
   
 # 219
 
-Question
-For this question, refer to the EHR Healthcare case study. You are responsible for designing the Google Cloud network architecture for Google Kubernetes  
+Question  
+For this question, refer to the EHR Healthcare case study.   
+You are responsible for designing the Google Cloud network architecture for Google Kubernetes  
 Engine. You want to follow Google best practices. Considering the EHR Healthcare business and technical requirements, what should you do to reduce the attack surface?          
 
 A. Use a private cluster with a private endpoint with master authorized networks configured.  
@@ -453,7 +461,8 @@ D. Tests should include directly testing the Google Cloud Platform (GCP) infrast
 # 221
 
 Question  
-Mountkirk Games has deployed their new backend on Google Cloud Platform (GCP). You want to create a through testing process for new versions of the backend before they are released to the public. You want the testing environment to scale in an economical way. How should you design the process?          
+Mountkirk Games has deployed their new backend on Google Cloud Platform (GCP).   
+You want to create a through testing process for new versions of the backend before they are released to the public. You want the testing environment to scale in an economical way. How should you design the process?          
 
 A. Create a scalable environment in GCP for simulating production load  
 B. Use the existing infrastructure to test the GCP-based backend at scale  
@@ -485,8 +494,9 @@ D. Google Cloud Functions, Google Cloud Pub/Sub, Google Cloud Deployment Manager
   
 # 223
 
-Question
-Mountkirk Games' gaming servers are not automatically scaling properly. Last month, they rolled out a new feature, which suddenly became very popular. A record number of users are trying to use the service, but many of them are getting 503 errors and very slow response times. What should they investigate first?          
+Question  
+Mountkirk Games' gaming servers are not automatically scaling properly.   
+Last month, they rolled out a new feature, which suddenly became very popular. A record number of users are trying to use the service, but many of them are getting 503 errors and very slow response times. What should they investigate first?          
 
 A. Verify that the database is online  
 B. Verify that the project quota hasn't been exceeded  
@@ -499,7 +509,7 @@ D. Verify that the load-testing team is not running their tool against productio
   
 # 224
 
-Question
+Question  
 Mountkirk Games needs to create a repeatable and configurable mechanism for deploying isolated application environments. Developers and testers can access each other's environments and resources, but they cannot access staging or production resources. The staging environment needs access to some services from production.  
 What should you do to isolate development environments from staging and production?          
 
@@ -514,8 +524,8 @@ D. Create one project for development, a second for staging and a third for prod
   
 # 225
 
-Question
-Mountkirk Games wants to set up a real-time analytics platform for their new game. The new platform must meet their technical requirements.
+Question  
+Mountkirk Games wants to set up a real-time analytics platform for their new game. The new platform must meet their technical requirements.  
 Which combination of Google technologies will meet all of their requirements?          
 
 A. Kubernetes Engine, Cloud Pub/Sub, and Cloud SQL  
@@ -530,7 +540,7 @@ E. Cloud Pub/Sub, Compute Engine, Cloud Storage, and Cloud Dataproc
   
 # 226
 
-Question
+Question  
 For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to migrate from their current analytics and statistics reporting model to one that meets their technical requirements on Google Cloud Platform.  
 Which two steps should be part of their migration plan?       (Choose two.)    
 
@@ -560,7 +570,7 @@ D. Create a global load balancer with managed instance groups and autoscaling po
   
 # 228
 
-Question
+Question  
 For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to design their solution for the future in order to take advantage of cloud and technology improvements as they become available. Which two steps should they take?       (Choose two.)    
 
 A. Store as much analytics and game activity data as financially feasible today so it can be used to train machine learning models to predict user behavior in the future.  
@@ -575,7 +585,7 @@ E. Implement a weekly rolling maintenance process for the Linux virtual machines
   
 # 229
 
-Question
+Question  
 For this question, refer to the Mountkirk Games case study. Mountkirk Games wants you to design a way to test the analytics platform's resilience to changes in mobile network latency. What should you do?          
 
 A. Deploy failure injection software to the game analytics platform that can inject additional latency to mobile client analytics traffic.  
@@ -643,7 +653,7 @@ D. Use gsutil to load the files as the last part of ETL.
   
 # 234
 
-Question
+Question  
 You are implementing Firestore for Mountkirk Games. Mountkirk Games wants to give a new game programmatic access to a legacy game's Firestore database.  
 Access should be as restricted as possible. What should you do?          
 
@@ -654,6 +664,7 @@ D. Create a service account (SA) in the legacy game's Google Cloud project, give
   
 [Discussion](/assets/gcp/discussion/234.md)  
 [Answers and Votes](/assets/gcp/discussion/234.ans.html)  
+[Analysis](/assets/gcp/discussion/234.vs.html)  
 
   
 # 235
@@ -777,15 +788,15 @@ Cloud Pub/Sub for Stream Analytics
   
 # 241
 
-Question
+Question  
 The TerramEarth development team wants to create an API to meet the company's business requirements. You want the development team to focus their development effort on business value versus creating a custom framework.
 Which method should they use?        
 
-A. Use Google App Engine with Google Cloud Endpoints. Focus on an API for dealers and partners
-B. Use Google App Engine with a JAX-RS Jersey Java-based framework. Focus on an API for the public
-C. Use Google App Engine with the Swagger (Open API Specification) framework. Focus on an API for the public
-D. Use Google Container Engine with a Django Python container. Focus on an API for the public
-E. Use Google Container Engine with a Tomcat container with the Swagger (Open API Specification) framework. Focus on an API for dealers and partners
+A. Use Google App Engine with Google Cloud Endpoints. Focus on an API for dealers and partners  
+B. Use Google App Engine with a JAX-RS Jersey Java-based framework. Focus on an API for the public  
+C. Use Google App Engine with the Swagger (Open API Specification) framework. Focus on an API for the public  
+D. Use Google Container Engine with a Django Python container. Focus on an API for the public  
+E. Use Google Container Engine with a Tomcat container with the Swagger (Open API Specification) framework. Focus on an API for dealers and partners  
   
   
 [Discussion](/assets/gcp/discussion/241.md)  
