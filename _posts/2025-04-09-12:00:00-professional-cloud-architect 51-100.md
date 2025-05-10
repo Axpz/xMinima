@@ -616,9 +616,9 @@ D. Save a history of recommendations and results of the recommendations in BigQu
 A development team at your company has created a dockerized HTTPS web application. You need to deploy the application on Google Kubernetes Engine (GKE) and make sure that the application scales automatically.
 How should you deploy to GKE?      
 
-A. Use the Horizontal Pod Autoscaler and enable cluster autoscaling. Use an Ingress resource to load-balance the HTTPS traffic.
-B. Use the Horizontal Pod Autoscaler and enable cluster autoscaling on the Kubernetes cluster. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic.
-C. Enable autoscaling on the Compute Engine instance group. Use an Ingress resource to load-balance the HTTPS traffic.
+A. Use the Horizontal Pod Autoscaler and enable cluster autoscaling. Use an Ingress resource to load-balance the HTTPS traffic.  
+B. Use the Horizontal Pod Autoscaler and enable cluster autoscaling on the Kubernetes cluster. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic.  
+C. Enable autoscaling on the Compute Engine instance group. Use an Ingress resource to load-balance the HTTPS traffic.  
 D. Enable autoscaling on the Compute Engine instance group. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic.  
     
 
@@ -629,13 +629,13 @@ D. Enable autoscaling on the Compute Engine instance group. Use a Service resour
 
 # 94
 
-You need to design a solution for global load balancing based on the URL path being requested. You need to ensure operations reliability and end-to-end in- transit encryption based on Google best practices.
+You need to design a solution for global load balancing based on the URL path being requested. You need to ensure operations reliability and end-to-end in-transit encryption based on Google best practices.
 What should you do?      
 
-A. Create a cross-region load balancer with URL Maps.
-B. Create an HTTPS load balancer with URL Maps.
-C. Create appropriate instance groups and instances. Configure SSL proxy load balancing.
-D. Create a global forwarding rule. Configure SSL proxy load balancing.  
+A. Create a cross-region load balancer with URL Maps.  
+B. Create an HTTPS load balancer with URL Maps.  
+C. Create appropriate instance groups and instances. Configure SSL proxy load balancing.  
+D. Create a global forwarding rule. Configure SSL proxy load balancing.    
 
 [Discussion](/assets/gcp/discussion/94.md)  
 [Answers and Votes](/assets/gcp/discussion/94.ans.html)  
